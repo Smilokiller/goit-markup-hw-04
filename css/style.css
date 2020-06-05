@@ -87,7 +87,8 @@ footer .container {
 
 /* nav */
 
-.site-nav .list {
+.site-nav.list {
+    display: inline-flex;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -97,16 +98,16 @@ footer .container {
     color: #212121;
 }
 
-.nav-position li {
-    display: inline-flex;
-}
-
 .site-nav .link:hover {
     border-bottom: 2px #2196F3 solid;
     border-radius: 2px;
 }
 
-.site-nav .link:hover, .contact-nav .link:hover {
+/* .site-nav .link:hover, .item .link:hover {
+    color: #2196F3;
+} */
+
+.contact-nav.list .item .link:hover {
     color: #2196F3;
 }
 
@@ -118,11 +119,8 @@ footer .container {
     margin-right: 305px;
 }
 
-.contact-position li {
+.contact-nav.list {
     display: inline-flex;
-}
-
-.contact-nav .list {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -146,7 +144,7 @@ footer .container {
     background-color: #212121;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8) , rgba(47, 48, 58, 0.8) ), url(../images/Header.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/Header.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
@@ -348,6 +346,10 @@ footer .container {
 .social .item {
     background: #fff;
     border-radius: 50%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 10px;
+    padding: 10px 12px;
 }
 
 .footer .social .item {
@@ -364,13 +366,6 @@ footer .container {
 
 .social .item:last-child {
     margin-right: 32px;
-}
-
-.social .item {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-right: 10px;
-    padding: 10px 12px;
 }
 
 /* clients */
@@ -637,15 +632,40 @@ footer {
     margin-left: 24px;
 }
 
-.navigate{
+.navigate-mail {
     width: 16px;
-  height: 11.2px;
-  cursor: pointer;
-  fill:#757575;
+    height: 11.2px;
+    cursor: pointer;
+    margin-right: 10px;
+    fill: currentColor;
 }
-.navigate:hover, .navigate:focus {
-    fill: #2196F3;
-  }
-  #svg-sprite {
-    display: none;
-  }
+
+.navigate-phone {
+    width: 10px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.navigate-phone:hover {
+    fill: currentColor;
+}
+
+.navigate-mail:hover {
+    fill: currentColor;
+}
+
+.social-svg {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    
+}
+
+.social-svg:hover {
+    fill: currentColor;
+}
+.footer .social-svg{
+    fill: #fff;
+}
