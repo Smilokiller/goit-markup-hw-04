@@ -113,6 +113,7 @@ footer .container {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    margin-right: 305px;
 }
 
 .site-nav .link:hover, .site-nav .link:focus {
@@ -130,10 +131,6 @@ footer .container {
 
 .site-nav .item+.item {
     margin-left: 40px;
-}
-
-.site-nav .item:last-child {
-    margin-right: 305px;
 }
 
 .contact-nav.list {
@@ -181,7 +178,6 @@ footer .container {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 0px;
-    padding-top: 200px;
     margin-left: 237px;
     margin-right: 237px;
 }
@@ -294,15 +290,12 @@ footer .container {
 .flex-about {
     width: calc((100% - 60px)/3);
     margin-right: 30px;
-    
     display: block;
-    
 }
-.flex-about:last-child{
+
+.flex-about:last-child {
     margin-right: 0px;
 }
-
-
 
 /* team */
 
@@ -351,13 +344,14 @@ footer .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .social .item {
     background: #fff;
     border-radius: 50%;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    
     margin-right: 10px;
 }
 
