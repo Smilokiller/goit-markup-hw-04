@@ -561,12 +561,16 @@ footer {
 }
 
 .example-nav button {
-    margin-right: 8px;
-    border: 0px;
     border-radius: 4px;
+    border: 0px;
+  
+}
+.example-nav li{
+    margin-right: 8px;
+
 }
 
-.example-nav button:last-child {
+.example-nav li:last-child {
     margin-right: 0px;
 }
 
@@ -581,6 +585,7 @@ footer {
     color: #212121;
     background-color: #F5F4FA;
     padding: 6px 22px;
+    border-radius: 4px;
 }
 
 
