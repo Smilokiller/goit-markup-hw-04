@@ -17,6 +17,7 @@ img {
     height: auto;
 }
 
+
 a {
     display: block;
     text-decoration: none;
@@ -559,11 +560,13 @@ footer {
     margin-bottom: 50px;
 }
 
-.example-nav li {
+.example-nav button {
     margin-right: 8px;
+    border: 0px;
+    border-radius: 4px;
 }
 
-.example-nav li:last-child {
+.example-nav button:last-child {
     margin-right: 0px;
 }
 
@@ -577,9 +580,9 @@ footer {
     letter-spacing: 0.03em;
     color: #212121;
     background-color: #F5F4FA;
-    border-radius: 4px;
     padding: 6px 22px;
 }
+
 
 .example-nav .link:hover, .example-nav .link:focus {
     color: #FFFFFF;
